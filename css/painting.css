@@ -1,0 +1,80 @@
+body {
+	box-sizing: border-box;
+	width: 95%;
+	margin: auto;
+	font-family: 'Noto Serif JP', sans-serif;
+	text-align: center;
+}
+
+nav {
+	clear: both;
+}
+
+.home {
+	margin-right: 2%;
+}
+
+.next {
+	margin-left: 2%;
+}
+
+h1,
+h2 {
+	font-family: 'Playfair Display', serif;
+}
+
+h2 {
+	margin-top: 0%;
+}
+
+h1 {
+
+	margin: 2em auto 1em;
+}
+
+p {
+	line-height: 1.2em;
+	font-size: .9em;
+}
+
+article img {
+	width: 80%;
+}
+
+nav img {
+	width: 20%;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 480px) {
+	
+	article img {
+	width: 30%;
+	max-height: 400px;
+	}
+	
+	.home {
+		position: absolute;
+		bottom: 50px;
+		left: 50px;
+	}
+
+	.next {
+		position: absolute;
+		bottom: 50px;
+		right: 50px;
+	}
+	
+	.wide {
+		width: 40%;
+	}
+	
+	.extrawide {
+		max-height: 450px;
+		width: 50%;
+	}
+}
