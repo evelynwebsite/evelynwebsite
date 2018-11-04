@@ -10,12 +10,18 @@ nav {
 	clear: both;
 }
 
-.home {
+.back {
 	margin-right: 2%;
 }
 
 .next {
 	margin-left: 2%;
+}
+
+.homebutton {
+	width: 30px;
+	margin: 3%;
+	margin-bottom: 0%;
 }
 
 h1,
@@ -57,7 +63,7 @@ a {
 	max-height: 400px;
 	}
 	
-	.home {
+	.back {
 		position: absolute;
 		bottom: 50px;
 		left: 50px;
@@ -67,6 +73,13 @@ a {
 		position: absolute;
 		bottom: 50px;
 		right: 50px;
+	}
+	
+	.homebutton {
+		position: absolute;
+		bottom: 50px;
+		left: 49%;
+		margin: 0;	
 	}
 	
 	.wide {

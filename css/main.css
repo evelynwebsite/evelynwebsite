@@ -83,8 +83,8 @@ a {
 	.bio img {
 		float: left;
 		width: 40%;
-		margin: auto;
-		padding: 5%;
+		margin: 5%;
+
 	}
 
 	.bio p {
@@ -97,22 +97,27 @@ a {
 
 @media screen and (min-width: 900px) {
 
+	.left {
+		float: left;
+		width: 35%;
+	}
+	
 	.bio {
-		margin-top: 90px;
+		margin-top: 70px;
 		width: 50%;
 		float: left;
 	}
 
 	.bio img {
 		float: left;
-		width: 55%;
+		width: 60%;
 		margin: auto;
 		padding: 5%;
 	}
 
 	.bio p {
-		padding-right: 5%;
-		width: 90%;
+		padding-top: 4.5%;
+		width: 100%;
 
 	}
 }
